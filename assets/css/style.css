@@ -1,0 +1,178 @@
+@font-face {
+    font-family: onepiece;
+    src: url(/assets/fonts/onepiece.ttf);
+}
+
+body {
+    margin: auto;
+    padding: auto;
+    background-image: url("https://i.ytimg.com/vi/s5Av4ze-HO4/maxresdefault.jpg");
+    background-repeat:no-repeat;
+    background-position:left top; 
+    background-size:cover;
+    font-family: onepiece;
+    height: 100%;
+}
+
+ul {
+    margin-top: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #f2f2f28e;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+ul li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 20px;
+}
+
+/* header */
+
+.header {
+    
+    background-size: cover;
+    
+    text-align: center;
+    font-size: 20px;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.syno {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* header page1 */
+
+#text {
+    font-size: 50px;
+    color : black;
+    text-align: center;
+}
+
+/* text avec img */
+
+#pres {
+    text-align: center;
+    padding: 10px;
+}
+
+.text_pres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2c7;
+    border-radius: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pres img {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+#pres div p {
+    padding-right: 10px;
+    border-left: 1px solid black;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+/* img equipages */
+
+.equipe img {
+    width: 300px;
+    height: 350px;
+    padding-left: 10px;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.equipe {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(128, 128, 128, 0.767);
+}
+
+/* contact */
+
+.contact {
+    background-image: none;
+}
+
+#text {
+    padding-bottom: 20px;
+}
+
+.escargot {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.imgesc {
+    border-radius: 50%;
+    width: 500px;
+}
+
+
+/* footer */
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+ }
+ #main {
+    min-height:100%;
+    position:relative;
+    padding-bottom:50px;   /* Hauteur du pied de page */
+ }
+ #footer {
+    position:absolute;
+    font-size: 50px;
+ }
+ #container {
+    height:100%;
+ }
+     
